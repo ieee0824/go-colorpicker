@@ -12,7 +12,7 @@ func min() {
 }
 
 func ExtractTypicalColors(img image.Image, k int) []colorful.Color {
-	indexs := make([]int, k)
+	indexes := make([]int, k)
 	w := img.Bounds().Max.X
 	h := img.Bounds().Max.Y
 	selectColor := make([]colorful.Color, 0, w*h)
@@ -46,13 +46,13 @@ func ExtractTypicalColors(img image.Image, k int) []colorful.Color {
 	if success {
 		for _, observation := range observations {
 			index := gokmeans.Nearest(observation, centroids)
-			indexs[index]++
+			indexes[index]++
 		}
 	}
 
 	ret := make([]colorful.Color, 0, len(centroids))
 	for i, centroid := range centroids {
-		if float64(indexs[i])/float64(len(observations)) < 0.01 {
+		if float64(indexes[i])/float64(len(observations)) < 0.01 {
 			continue
 		}
 		hsv := centroid
