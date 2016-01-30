@@ -7,10 +7,6 @@ import (
 	"github.com/mdesenfants/gokmeans"
 )
 
-func min() {
-
-}
-
 func ExtractTypicalColors(img image.Image, k int) []colorful.Color {
 	indexes := make([]int, k)
 	w := img.Bounds().Max.X
