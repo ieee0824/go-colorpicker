@@ -1,7 +1,6 @@
 package colorpicker
 
 import (
-	"fmt"
 	"image"
 
 	"github.com/lucasb-eyer/go-colorful"
@@ -50,11 +49,9 @@ func ExtractTypicalColors(img image.Image, k int) []colorful.Color {
 			indexs[index]++
 		}
 	}
-	fmt.Println(indexs)
 
 	ret := make([]colorful.Color, 0, len(centroids))
 	for i, centroid := range centroids {
-		fmt.Println(float64(indexs[i]) / float64(len(observations)))
 		if float64(indexs[i])/float64(len(observations)) < 0.01 {
 			continue
 		}
