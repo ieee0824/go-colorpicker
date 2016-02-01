@@ -63,11 +63,6 @@ func main() {
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0002.jpg">
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0003.jpg">
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0004.jpg">  
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0005.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0006.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0007.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0008.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.jpg_0009.jpg">
 
 ### Lena
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/image/test.png">  
@@ -76,10 +71,6 @@ func main() {
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.png_0002.jpg">
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.png_0003.jpg">
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.png_0004.jpg">  
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.png_0005.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.png_0006.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.png_0007.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/test.png_0008.jpg">  
 
 ### Windows 95 Logo
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/image/w95.jpg">  
@@ -88,8 +79,3 @@ func main() {
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0002.jpg">
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0003.jpg">
 <img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0004.jpg">  
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0005.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0006.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0007.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0008.jpg">
-<img src="https://raw.githubusercontent.com/ieee0824/go-colorpicker/master/exsamples/result/w95.jpg_0009.jpg">
