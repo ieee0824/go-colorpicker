@@ -27,7 +27,7 @@ func main() {
 			log.Fatalln(err)
 		}
 		img, _, _ := image.Decode(file)
-		colorClass := colorpicker.ExtractTypicalColors(img, 10)
+		colorClass := colorpicker.ExtractTypicalColors(img, 4)
 		orgName := info.Name()
 		fmt.Println(orgName)
 		fmt.Println(len(colorClass))
