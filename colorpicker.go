@@ -2,10 +2,21 @@ package colorpicker
 
 import (
 	"image"
+	"image/color/palette"
 
 	"github.com/lucasb-eyer/go-colorful"
 	"github.com/mdesenfants/gokmeans"
 )
+
+func thinOutColor(img image.Image) image.Image {
+	paletted := image.NewPaletted(img.Bounds(), palette.WebSafe)
+	for y := img.Bounds().Min.Y; y < img.Bounds().Max.Y; y++ {
+		for x := img.Bounds().Min.X; x < img.Bounds().Max.X; x++ {
+			paletted.Set(x, y, img.At(x, y))
+		}
+	}
+	return paletted
+}
 
 func ExtractTypicalColors(img image.Image, k int) []colorful.Color {
 	indexes := make([]int, k)
