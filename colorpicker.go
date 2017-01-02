@@ -4,6 +4,7 @@ import (
 	"image"
 	"image/color/palette"
 
+	"github.com/disintegration/imaging"
 	"github.com/lucasb-eyer/go-colorful"
 	"github.com/mdesenfants/gokmeans"
 )
@@ -19,6 +20,8 @@ func thinOutColor(img image.Image) image.Image {
 }
 
 func ExtractTypicalColors(img image.Image, k int) []colorful.Color {
+	img = imaging.AdjustContrast(img, 95)
+
 	indexes := make([]int, k)
 	w := img.Bounds().Max.X
 	h := img.Bounds().Max.Y
@@ -31,10 +34,10 @@ func ExtractTypicalColors(img image.Image, k int) []colorful.Color {
 				G: float64(g>>8) / 255,
 				B: float64(b>>8) / 255,
 			}
-			_, s, v := c.Hsv()
+			h, s, v := c.Hsv()
 
-			if s > 0.5 && v > 0.5 {
-				selectColor = append(selectColor, c)
+			if s > 0.5 && v > 0.7 {
+				selectColor = append(selectColor, colorful.Hsv(h, s, 1))
 			}
 		}
 	}
